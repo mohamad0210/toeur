@@ -1,0 +1,314 @@
+
+    :root{
+        --colororang :  #f38181;
+        --colorgreen :  #eaffd0;
+        
+            }
+            *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+            }
+            body{
+                font-family: yekan,  Calibri, tahoma, arial ;
+        color: #61666b ;
+            }
+            a {
+           text-decoration: none;
+            }
+            .abut{
+        padding-top: 70px;
+        padding-bottom: 70px ;
+        background-image: url(../image/imaje/pattern.png);
+        
+            }
+            .abut p, .abut ul{
+        font-family: "vazir", "yekan", tahoma, arial;
+        
+            }
+            .abut h2, .abut h3{
+        color: var(--colororang);
+        
+            }
+            .abut ul{
+        list-style: none;
+        
+            }
+            .row{
+        max-width: 1020px;
+        margin: 0 auto;
+        padding: 30px;
+        
+            }
+            /* font */
+        
+            @font-face {
+          font-family: 'yekan';
+          src: url('../font/eot/BYekan.eot'); 
+          src: url('../font/eot/BYekan.eot?#iefix') format('embedded-opentype'), 
+               url('../font/woff2/BYekan.woff2') format('woff2'), 
+               url('../font/woff/BYekan.woff') format('woff'), 
+               url('../font/ttf/BYekan.ttf')  format('truetype'), 
+         
+        }
+        
+        @font-face {
+          font-family: 'vazir';
+          src: url('../font/eot/Vazir-Medium.eot'); 
+          src: url('../font/eot/Vazir-Medium.eot?#iefix') format('embedded-opentype'), 
+               url('../font/woff2/Vazir-Medium.woff2') format('woff2'), 
+               url('../font/woff/Vazir-Medium.woff') format('woff'), 
+               url('../font/ttf/Vazir-Medium.ttf')  format('truetype'), 
+         
+        }
+        
+            /* header */
+            .header{
+                position: relative;
+        background-image: url(../image/imaje/fin-kashan-1920.jpg);
+        width: 100%;
+        height: 657px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        text-align: center;
+        background-size: cover;
+            }
+            .logo{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+            }
+            .header-text{
+                color: white;
+             padding-top: 150px;
+             font-size: 28px;
+             text-shadow: 5px 3px 5px rgb(8 4 4);
+            }
+            /* menu */
+        .menu-list{
+        list-style: none;
+        padding-top: 50px;
+        }
+        .menu-list__item{
+        display: inline-block;
+        
+        }
+        .menu-list__link{
+        text-decoration: none;
+        border: 2px solid #b83b5e;
+        color: white;
+        background-color: #f38181;
+        padding: 10px;
+        border-radius: 3px;
+        
+        }
+        .menu-list__link:hover{
+        color: #fce38a;
+        
+        
+        
+        }
+        .menu-list__link--active{
+        color:#fce38a ;
+        
+        }
+        .cta{
+        background-color: var(--colororang) ;
+        padding: 2px 8px 5px 8px;
+        border-radius: 5px;
+        color: var(--colorgreen);
+        
+        }
+        .arrow-down{
+        background-color: #333;
+        position: absolute;
+        bottom: 5px;
+        right: 50%;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        }
+        .arrow-link{
+            position: relative;
+            top: 7px;
+        font-size: 35px;
+        text-decoration: none;
+        color: var(--colororang);
+        transition: all .5s;
+        
+        }
+        .arrow-link:hover{
+        color: var(--colorgreen);
+        }
+        .abut-img{
+        float: left;
+        margin-right: 20px;
+        }
+
+.itinerary{
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.itinerary-img1{
+float: left;
+margin-right: 20px;
+}
+ .itinerary-img2{
+margin-left: 20px;
+float: right;
+    }
+
+.clearfix{
+clear: both;
+padding-top: 30px;
+}
+/* book */
+.input, textarea, select {
+    font-family: "vazir" "yekan" tahoma, arial;
+
+}
+.book-form {
+max-width: 400px;
+margin: 0 auto;
+font-family: "yekan","vazir" , tahoma, arial;
+}
+.book{
+background-color: #f1f1f1;
+padding: 20px 0;
+
+
+}
+.book-header{
+text-align: center;
+font-size: 20px;
+color: var(--colororang);
+}
+.book-form .form-group {
+margin-bottom: 20px;
+
+
+}
+
+.form-control {
+display: block;
+width: 100%;
+padding: 7px;
+border: 2px solid #cccccc;
+line-height: 1.8;
+border-radius: 5px;
+transition: .3s;
+padding: 8px;
+}
+.form-control:focus{
+    background-color: #ccc;
+border: 2px solid rgb(53, 135, 241);
+outline: 0;
+
+}
+.book-form label {
+display: inline-block;
+margin-bottom: 10px;
+}
+.button{
+padding: 7px 18px;
+background-color: #11abb0;
+cursor: pointer;
+border-radius: 5px;
+border: 0;
+transition: all .3s;
+}
+.button:hover{
+background-color: #f38181;
+
+
+}
+
+.required{
+color: #f30f0f;
+font-size: 25px;
+
+}
+.form-chekbox{
+position: relative;
+margin-bottom: 7px;
+}
+.input-chekbox{
+position: absolute;
+top: 6px;
+}
+.chekbox-label{
+margin-right: 20px;
+}
+/* footer */
+.footer{
+    position: relative;
+background-color: #2e2e2e;
+text-align: center;
+padding: 80px;
+}
+
+.footer__arrowup{
+    background-color: #707070;
+    position: absolute;
+    top: -28px;
+    right: 50%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    }
+    .footer__arrowlink{
+        position: relative;
+        top: 2px;
+    font-size: 35px;
+    text-decoration: none;
+    color: var(--colororang);
+    transition: all .5s;
+    
+    }
+    .footer__arrowlink:hover{
+    color: var(--colorgreen);
+    }
+
+
+
+
+
+.footer__lists{
+list-style: none;
+
+
+}
+
+
+.footer__list{
+display: inline-block;
+
+
+}
+
+.footer__link{
+color: #82b8ff;
+padding: 20px;
+}
+
+.footer__link:hover{
+color: white;
+
+}
+
+.footer__copyright{
+    color: #cccccc;
+}
+.footer__link--copy{
+padding-right: 5px;
+
+}
+
+
+
+
